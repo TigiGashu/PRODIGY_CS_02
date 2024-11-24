@@ -16,7 +16,7 @@ A Python program to encrypt and decrypt images using pixel manipulation.
 
 1. Run the program:
    ```bash
-   python image_encryption_tool.py
+   python image encryption.py
 Welcome to the Image Encryption Tool!
 
 Menu:
