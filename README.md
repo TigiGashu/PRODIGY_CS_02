@@ -1,59 +1,36 @@
-Image Encryption Tool
-A Python-based tool to encrypt and decrypt images using pixel manipulation. This lightweight tool lets users secure their images with a custom key, offering a simple yet effective way to protect visual data.
+# 🖼️ Image Encryption Tool
 
-🚀 Features
-Encrypt Images: Transform pixel values using a user-provided key to create encrypted images.
-Decrypt Images: Reverse the pixel manipulation using the same key to restore the original image.
-Supported Formats: Compatible with common image formats like PNG, JPG, and BMP.
-Simple Interface: Easy-to-use terminal-based interface with clear prompts for input.
-🛠️ Installation
-Prerequisites
-Python 3.x installed on your machine.
-Required Python libraries: Pillow and NumPy.
-Install dependencies using:
+A Python program to encrypt and decrypt images using pixel manipulation.
 
-bash
-Copy code
+---
+
+## Features
+
+- Encrypt an image by modifying its pixel values using a numeric key.
+- Decrypt an encrypted image back to its original form using the same key.
+- Supports common image formats like `.png`, `.jpg`, and `.bmp`.
+
+---
+
+## How to Use
+
+1. Run the program:
+   ```bash
+   python image_encryption_tool.py
+Welcome to the Image Encryption Tool!
+
+Menu:
+1. Encrypt an image
+2. Decrypt an image
+3. Exit
+
+Choose an option (1, 2, or 3):
+Input File: image.jpg
+Key: 123
+Output File: encrypted_image.jpg
+Input File: encrypted_image.jpg
+Key: 123
+Output File: decrypted_image.jpg
 pip install pillow numpy
-📋 Usage
-Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/image-encryption-tool.git
-cd image-encryption-tool
-Run the Tool:
-
-bash
-Copy code
-python image_encryption_tool.py
-Follow the Menu Options:
-
-Choose to encrypt or decrypt an image.
-Enter the image file path, a numeric key, and the output file path.
-The tool will process and save the image accordingly.
-🔑 Example Workflow
-Encrypt an Image:
-
-Input: original_image.jpg
-Key: 42
-Output: encrypted_image.jpg
-Decrypt an Image:
-
-Input: encrypted_image.jpg
-Key: 42
-Output: restored_image.jpg
-The decrypted image will match the original image only if the same key is used.
-
-⚠️ Important Notes
-The key used during encryption is mandatory for decryption.
-The original image remains unmodified; the output is saved as a new file.
-Make sure the key is a numerical value.
-📦 Dependencies
-Pillow: For image loading, manipulation, and saving.
-NumPy: For efficient pixel-level transformations.
-Install using:
-
-bash
-Copy code
-pip install pillow numpy
+This format makes it look more like a code snippet, with clear sections for users. Let me know if there’s anything else you'd like to adjust! 🚀
